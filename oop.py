@@ -1,3 +1,4 @@
+
 class Fruits:
     # connstructor method
 
@@ -8,12 +9,11 @@ class Fruits:
 
     # method
     def display(self):
-        print(f"I love eating{self.name}and it is{self.color}in color")
+        print(f"I love eating {self.name}, it cost {self.price} and it is{self.color} in color")
 
-        # instance
-        myobj=Fruits("Banana", 30, "yellow")
+        # istance (object.)
+        myobj=Fruits("banana", 30, "yellow")
         myobj.display()
-        myobj=Fruits("mangoes",20,"green")
-        myobj.display()
-
+        myobj2=Fruits("mangoes",20,"green")
+        myobj2.display()
 

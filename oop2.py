@@ -11,7 +11,7 @@ class Person:
 
     # method
     def display(self):
-        print(f"I love playing{self.name}and it is{self.age} gender")
+        print(f"I love playing{self.name}is{self.age} gender")
 
         # instance
         myobj=Person("Mary", 30, "Female")
